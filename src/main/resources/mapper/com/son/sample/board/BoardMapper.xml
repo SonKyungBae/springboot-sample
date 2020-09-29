@@ -2,7 +2,7 @@
 <mapper namespace="com.son.sample.board.mapper.BoardMapper">
 
 	<select id="selectBoard" resultType="BoardVO">
-		select * from board
+		select 1 as id,"name" as name,"subject" as subject
 	</select>
 
 </mapper>
